@@ -1,0 +1,302 @@
+{
+  "cars": [
+    {
+      "id": "car-1",
+      "name": "Porsche 911 GT3 RS",
+      "brand": "Porsche",
+      "category": "Supercar",
+      "pricePerDay": 850,
+      "hp": 518,
+      "acceleration": "3.2s (0-100km/h)",
+      "seats": 2,
+      "transmission": "PDK Automática",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 4.98,
+      "reviewsCount": 42,
+      "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Launch Control",
+        "Escape Deportivo Carbono",
+        "Telemetría de Pista",
+        "Modo Track RS",
+        "Sistema Burmester 3D"
+      ]
+    },
+    {
+      "id": "car-2",
+      "name": "Lamborghini Urus Performante",
+      "brand": "Lamborghini",
+      "category": "SUV Lujo",
+      "pricePerDay": 950,
+      "hp": 657,
+      "acceleration": "3.3s (0-100km/h)",
+      "seats": 5,
+      "transmission": "Automática 8-Vel",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 4.95,
+      "reviewsCount": 39,
+      "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Tracción Integral 4WD",
+        "Modo Corsa",
+        "Escape de Titanio Akrapovič",
+        "Asientos de Carbono",
+        "Suspensión Neumática"
+      ]
+    },
+    {
+      "id": "car-3",
+      "name": "Mercedes-AMG G63 V8",
+      "brand": "Mercedes-Benz",
+      "category": "SUV Lujo",
+      "pricePerDay": 750,
+      "hp": 585,
+      "acceleration": "4.5s (0-100km/h)",
+      "seats": 5,
+      "transmission": "AMG SPEEDSHIFT 9G",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 4.92,
+      "reviewsCount": 56,
+      "image": "https://images.unsplash.com/photo-1520050206274-a1ae44613e6d?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Paquete Night AMG",
+        "Sonido Burmester High-End",
+        "Techo Panorámico",
+        "Iluminación 64 Colores",
+        "Escape Lateral Activo"
+      ]
+    },
+    {
+      "id": "car-4",
+      "name": "Tesla Model S Plaid",
+      "brand": "Tesla",
+      "category": "Eléctrico",
+      "pricePerDay": 450,
+      "hp": 1020,
+      "acceleration": "2.1s (0-100km/h)",
+      "seats": 5,
+      "transmission": "Direct Drive 1-Vel",
+      "fuelType": "100% Eléctrico (Autonomía 600km)",
+      "status": "available",
+      "rating": 4.9,
+      "reviewsCount": 64,
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Autopilot Full Self-Driving",
+        "Pantalla de 17\" 2.2K",
+        "Volante Yoke",
+        "Gaming Rig Incorporado",
+        "Carga Súper Rápida V3"
+      ]
+    },
+    {
+      "id": "car-5",
+      "name": "BMW M5 CS V8 Twin-Turbo",
+      "brand": "BMW",
+      "category": "Deportivo",
+      "pricePerDay": 550,
+      "hp": 627,
+      "acceleration": "3.0s (0-100km/h)",
+      "seats": 4,
+      "transmission": "M Steptronic 8-Vel",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 4.96,
+      "reviewsCount": 29,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Frenos Carbono-Cerámicos",
+        "Llantas Gold Bronze",
+        "Asientos Baquet M Carbon",
+        "Head-Up Display M",
+        "Escape Deportivo"
+      ]
+    },
+    {
+      "id": "car-6",
+      "name": "Audi RS7 Sportback Performance",
+      "brand": "Audi",
+      "category": "Ejecutivo",
+      "pricePerDay": 490,
+      "hp": 600,
+      "acceleration": "3.6s (0-100km/h)",
+      "seats": 5,
+      "transmission": "Tiptronic 8-Vel",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 4.88,
+      "reviewsCount": 31,
+      "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Tracción quattro",
+        "Faros HD Matrix LED",
+        "Sonido Bang & Olufsen 3D",
+        "Suspensión Neumática Adaptativa",
+        "Audi Virtual Cockpit"
+      ]
+    },
+    {
+      "id": "car-7",
+      "name": "Rolls-Royce Ghost Black Badge",
+      "brand": "Rolls-Royce",
+      "category": "Lujo VIP",
+      "pricePerDay": 1400,
+      "hp": 592,
+      "acceleration": "4.8s (0-100km/h)",
+      "seats": 4,
+      "transmission": "Satellite Aided 8-Vel",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 5,
+      "reviewsCount": 19,
+      "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Techo Starlight con Estrellas Fugaces",
+        "Puertas de Cierre Automático",
+        "Chófer Opcional VIP",
+        "Consola de Champán Integrada",
+        "Aislamiento Acústico Total"
+      ]
+    },
+    {
+      "id": "car-8",
+      "name": "Ferrari F8 Tributo V8",
+      "brand": "Ferrari",
+      "category": "Supercar",
+      "pricePerDay": 1100,
+      "hp": 710,
+      "acceleration": "2.9s (0-100km/h)",
+      "seats": 2,
+      "transmission": "F1 Doble Embrague 7-Vel",
+      "fuelType": "Gasolina Premium",
+      "status": "available",
+      "rating": 4.99,
+      "reviewsCount": 47,
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1000&q=80",
+      "features": [
+        "Manettino de Carreras",
+        "Ferrari Dynamic Enhancer+",
+        "Side Slip Angle Control 6.1",
+        "Volante de Fibra de Carbono con LEDs"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-9382",
+      "carId": "car-2",
+      "carName": "Lamborghini Urus Performante",
+      "carImage": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1000&q=80",
+      "customerName": "johan. diaz",
+      "customerEmail": "johandh@outlook.cl",
+      "customerPhone": "920591616",
+      "pickupLocation": "Aeropuerto Internacional (SJU / Miami / SDQ)",
+      "dropoffLocation": "Aeropuerto Internacional (SJU / Miami / SDQ)",
+      "startDate": "2026-07-26",
+      "endDate": "2026-07-29",
+      "totalDays": 3,
+      "dailyRate": 950,
+      "addOns": [],
+      "subtotal": 2850,
+      "tax": 513,
+      "totalPrice": 3363,
+      "status": "Confirmed",
+      "createdAt": "2026-07-25T19:57:40.587Z"
+    },
+    {
+      "id": "BK-9021",
+      "carId": "car-1",
+      "carName": "Porsche 911 GT3 RS",
+      "customerName": "Alexander Wright",
+      "customerEmail": "alex.wright@example.com",
+      "customerPhone": "+1 (555) 234-5678",
+      "pickupLocation": "Aeropuerto Internacional (SJU / Miami / SDQ)",
+      "dropoffLocation": "Hotel Ritz-Carlton / Marina VIP",
+      "startDate": "2026-07-28",
+      "endDate": "2026-07-31",
+      "totalDays": 3,
+      "dailyRate": 850,
+      "addOns": [
+        "Seguro Total Cobertura Zero",
+        "Entrega VIP a Domicilio"
+      ],
+      "subtotal": 2550,
+      "tax": 459,
+      "totalPrice": 3009,
+      "status": "Confirmed",
+      "createdAt": "2026-07-24T14:20:00.000Z"
+    },
+    {
+      "id": "BK-8842",
+      "carId": "car-3",
+      "carName": "Mercedes-AMG G63 V8",
+      "customerName": "Sophia Martinez",
+      "customerEmail": "sophia.m@example.com",
+      "customerPhone": "+1 (555) 876-5432",
+      "pickupLocation": "Oficina Central AutoLux",
+      "dropoffLocation": "Oficina Central AutoLux",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-05",
+      "totalDays": 4,
+      "dailyRate": 750,
+      "addOns": [
+        "GPS Satelital Offline",
+        "Silla de Bebé Premium"
+      ],
+      "subtotal": 3000,
+      "tax": 540,
+      "totalPrice": 3540,
+      "status": "In Progress",
+      "createdAt": "2026-07-22T09:15:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "carId": "car-1",
+      "customerName": "Carlos E. Mendoza",
+      "rating": 5,
+      "date": "Hace 3 días",
+      "comment": "Experiencia absolutamente increíble con el Porsche GT3 RS. El auto estaba implacable y la entrega en el aeropuerto fue impecable."
+    },
+    {
+      "id": "rev-2",
+      "carId": "car-7",
+      "customerName": "Victoria Sterling",
+      "rating": 5,
+      "date": "Hace 1 semana",
+      "comment": "El Rolls-Royce Ghost superó todas nuestras expectativas para nuestro evento corporativo. Servicio 5 estrellas de AutoLux."
+    },
+    {
+      "id": "rev-3",
+      "carId": "car-4",
+      "customerName": "David K. Ross",
+      "rating": 5,
+      "date": "Hace 2 semanas",
+      "comment": "La aceleración del Tesla Model S Plaid es de otro planeta. El proceso de reserva en la web tomó menos de 2 minutos."
+    }
+  ],
+  "promos": [
+    {
+      "code": "VIP2026",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "description": "15% de Descuento VIP de Verano"
+    },
+    {
+      "code": "AUTOLUX10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "description": "10% de Descuento Bienvenida"
+    },
+    {
+      "code": "SUPERCAR50",
+      "discountType": "fixed",
+      "discountValue": 50,
+      "description": "$50 USD de Descuento Directo"
+    }
+  ]
+}
