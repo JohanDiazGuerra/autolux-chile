@@ -1,66 +1,67 @@
-# 🚗 AutoLux Drive Chile 🇨🇱 (Versión Beta Enterprise)
+# AutoLux Drive Chile - Sistema de Renta de Vehículos (Versión Beta)
 
-Plataforma Web de Alquiler de Superdeportivos, SUVs de Lujo y Vehículos Eléctricos para el Mercado Chileno 🇨🇱.
+Este repositorio contiene la versión beta de la plataforma web de alquiler de vehículos para el mercado chileno. Es un proyecto en desarrollo activo orientado a la mejora continua, optimización de código y recepción de feedback.
 
----
+## Descripción del Proyecto
 
-## 🚀 Características Principales
+El sistema está diseñado como una solución integral que abarca la gestión de flota de vehículos, reservas de clientes en tiempo real, cálculo de impuestos locales (IVA 19%), pase diario de peajes urbanos (TAG), asistente virtual de consultas y un panel de administración para la gestión de contenidos y estado de las unidades.
 
-- **🏎️ Flota de 16 Vehículos Exóticos:** Fichas técnicas completas (HP, 0-100km/h, consumo por litro, maletero, tracción).
-- **⚖️ Comparador Lado a Lado:** Comparativa en paralelo de hasta 3 vehículos simultáneos.
-- **💱 Selector de Monedas en Tiempo Real:** Pesos Chilenos (`CLP $`), USD, EUR, DOP y MXN.
-- **🇨🇱 Facturación Transparente Chile:** Cálculo del **19% de IVA oficial**, Pase Diario TAG Autopistas Urbanas y Seguro Zero Excess.
-- **📄 Uploader de Licencia/RUT:** Carga de fotos de documentos durante el checkout.
-- **✍️ Firma Digital Táctil:** Firma en pantalla que se imprime en el **Contrato Digital PDF**.
-- **🤖 Luxi AI Concierge:** Asistente Virtual IA 24/7 con recomendaciones de autos y reserva directa.
-- **💬 WhatsApp VIP Concierge 24/7:** Contacto directo en 1 clic.
-- **🛠️ Panel CMS Master Admin:** Gestor completo de flota, precios en CLP, reservas, sucursales, cupones de descuento y configuraciones del sitio.
+## Funcionalidades Incluidas
 
----
+- Catálogo de vehículos con especificaciones técnicas detalladas (potencia, aceleración, consumo por litro, transmisión y capacidad).
+- Sistema de comparación de especificaciones técnicas entre unidades de la flota.
+- Motor de reservas con cálculo automático de tarifas, impuestos y adicionales opcionales.
+- Carga de documentación de clientes (Cédula de Identidad / RUT y Licencia de Conducir).
+- Registro de firma digital en pantalla para la emisión del contrato de arriendo en formato PDF.
+- Asistente virtual de atención al cliente para resolver dudas sobre condiciones de alquiler y sugerencias de flota.
+- Panel de control de administración (CMS) para gestión de inventario, actualización de precios, mantenimiento de unidades, sucursales y códigos de descuento.
 
-## 🛠️ Instalación y Ejecución Local
+## Arquitectura de la Aplicación
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/TU-USUARIO/autolux-drive-chile.git
-   cd autolux-drive-chile
-   ```
+La solución se compone de dos módulos principales:
 
-2. **Instalar dependencias:**
-   ```bash
-   npm run setup
-   ```
+1. **Cliente (Frontend):** Aplicación de página única (SPA) desarrollada en HTML, CSS y JavaScript Vanilla, con diseño adaptativo y soporte multimoneda.
+2. **Servidor (Backend):** API REST desarrollada en Node.js y Express para la persistencia de datos, procesamiento de solicitudes y lógica de negocios.
 
-3. **Iniciar servidor:**
-   ```bash
-   npm start
-   ```
-
-4. **Abrir en el navegador:**
-   👉 `http://localhost:5001`
-
----
-
-## 📁 Estructura del Proyecto
+## Estructura del Repositorio
 
 ```text
-/renta car
-├── /cliente/              # Frontend SPA (HTML5, CSS3, JavaScript Vanilla)
-│   ├── index.html         # Vista Principal
-│   ├── estilos.css        # Sistema de Diseño de Lujo Dark Mode
-│   └── aplicacion.js      # Lógica de Interacción, AI Chat y Checkout
-│
-├── /servidor/             # Backend REST API (Node.js & Express)
-│   ├── servidor.js        # Punto de Entrada
-│   ├── base_datos.js      # Base de Datos JSON
-│   └── /rutas/            # Endpoints API (cars, bookings, ai, admin, stats)
-│
+autolux-chile/
+├── cliente/
+│   ├── index.html
+│   ├── estilos.css
+│   └── aplicacion.js
+├── servidor/
+│   ├── servidor.js
+│   ├── base_datos.js
+│   └── rutas/
+│       ├── admin.js
+│       ├── ai.js
+│       ├── autos.js
+│       ├── estadisticas.js
+│       └── reservas.js
 ├── .gitignore
 ├── package.json
 └── README.md
 ```
 
----
+## Instrucciones de Instalación Local
 
-## 📜 Licencia
-Proyecto desarrollado para **AutoLux Drive Chile SpA** (RUT: 77.892.410-9). Todos los derechos reservados.
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/JohanDiazGuerra/autolux-chile.git
+   cd autolux-chile
+   ```
+
+2. Instalar las dependencias e iniciar el servidor:
+   ```bash
+   cd servidor
+   npm install
+   node servidor.js
+   ```
+
+3. Acceder mediante el navegador web en: `http://localhost:5001`
+
+## Estado del Proyecto y Contribuciones
+
+Este proyecto se encuentra en etapa beta y está abierto a sugerencias, correcciones y nuevas funcionalidades. Puedes abrir un issue o enviar un pull request para contribuir con mejoras en la arquitectura o la interfaz.
